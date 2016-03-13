@@ -1,0 +1,197 @@
+* {margin:0; padding:0;}
+		body {
+			font-family:helvetica, arial, sans-serif; 
+			background-color: black;
+		}
+		#wrapper {
+			width:960px; margin:0 auto; overflow:hidden; border:1px solid #6b5678;
+		}
+		header {
+			background:#a292ac;
+			padding:3px 10px;
+			text-align:center;
+			padding: 10px;
+		}
+		header h1 {
+			font-family:Arial;
+			font-size:2.5em;
+			letter-spacing:-.05em;
+			color:#fff;
+		}
+		header h1:hover {
+			color: red;
+		}
+		nav{
+			background:#f7923a;
+			padding:10px 10px;       
+		}
+		nav li {
+			display:inline;
+		}
+		li {
+			list-style: none;
+			text-align: center;
+		}
+		section#bannerImage img {
+			display:block;
+			height:150px;
+			width:960px;
+		}
+		#nav {
+		    background-color: #222;
+		}
+		#nav_wrapper {
+		    width: 960px;
+		    margin: 0 auto;
+		    text-align: left;
+		}
+		#nav ul {
+		    list-style-type: none;
+		    padding: 0;
+		    margin: 0;
+		    position: relative;
+		    min-width: 200px;
+		}
+		#nav ul li {
+		    display: inline-block;
+		}
+		#nav ul li:hover {
+		    background-color: #333;
+		}
+		#nav ul li a, visited {
+		    color: #CCC;
+		    display: block;
+		    padding: 15px;
+		    text-decoration: none;
+		}
+		#nav ul li:hover ul {
+		    display: block;
+		}
+		#nav ul ul {
+		    display: none;
+		    position: absolute;
+		    background-color: #333;
+		    border: 5px solid #222;
+		    border-top: 0;
+		    margin-left: -5px;
+		}
+		#nav ul ul li {
+		    display: block;
+		}
+		#nav ul ul li a:hover {
+		    color: #009999;
+		}
+		#validP {
+			color: white;
+			text-align: center;
+			padding: 10px;
+			font-size: 20px;
+		}
+		div.picDiv {
+			text-align: center
+		}
+		/* FEATURE AREA */	
+		section#feature_area  article {
+			float:left;
+			width:320px;
+			padding:10px 0;
+			background:#fff;
+			border-top:4px solid #f7be84;
+		}
+		section#feature_area article .inner {
+			margin:10px 20px;
+			padding:5px;
+			background:#fff;
+			border:5px solid;
+			border-radius: 25px;
+			box-shadow: 10px 10px 5px #888888;
+		}
+		section#feature_area article .inner li:hover {
+			color: red;
+		}
+		section#feature_area article:nth-child(2) {
+			background:#e5e8ed;
+		}
+		section#feature_area article:nth-child(1) .inner {
+			border-color:#d7dd6f;
+		}
+		section#feature_area article:nth-child(2) .inner {
+			border-color:#f7923a;
+		}
+		section#feature_area article:nth-child(3) .inner {
+			border-color:#d7dd6f;
+		}
+		section#feature_area article p {
+			font-family:'Open Sans';
+			font-weight:300;
+			font-size:1.15em;
+			line-height:1em;
+			text-align:center;
+			color:#616161;
+		}
+		/*Chrome Desktop*/
+		/*section#feature_area  #article1 {
+			padding: 10px 0 27px 0;
+		}
+		section#feature_area  #article2 {
+			padding: 10px 0 18px 0;
+		}*/
+
+		/*Safari Laptop*/
+		section#feature_area  #article1 {
+			padding: 10px 0 15px 0;
+		}
+		section#feature_area  #article2 {
+			padding: 10px 0 15px 0;
+		}
+
+		/* PROMO AREA */	
+		#promo_area  article {
+			float:left;
+			width:240px;
+			padding:10px 0;
+			border-top:4px solid #f7be84;
+			background:#fff;
+		}
+		#promo_area article .inner {
+			margin:0 20px;
+			padding:10px;
+			background:#e5e8ed;
+			border-radius: 25px;
+			box-shadow: 10px 10px 5px #888888;
+		}
+		#promo_area article p {
+			font-family:'Open Sans Condensed';
+			font-weight:300;
+			font-size:1em;
+			line-height:1.5em;
+			color:#616161;
+		}
+		/* HOVER STYLES */
+	    div#pop-up1, #pop-up2, #pop-up3, #pop-up4 {
+	        display: none;
+	        position: absolute;
+	        width: 280px;
+	        padding: 10px;
+	        background: #eeeeee;
+	        color: #000000;
+	        border: 3px solid #196CE8; /*#f7923a;*/
+	        font-size: 90%;
+	        border-radius: 25px;
+	    }
+		footer {
+			clear:both;
+			text-align:center;
+			background: #f7923a; /*was #6b5678  */
+			padding: 5px;
+		}
+		footer p {
+			font-family:'Open Sans';
+			font-weight:600;
+			font-size:.7em;
+			letter-spacing:-.05em;
+			color:#fff;
+		}
+		footer p:hover {
+		    color: green;
+		}
